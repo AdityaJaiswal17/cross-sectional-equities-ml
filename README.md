@@ -17,10 +17,12 @@ If the models can't beat momentum, they aren't adding anything.
 ## Installing and running
 
 ```
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate equities-ml
 python run.py               # real data, downloaded once and saved in data/
 python run.py --synthetic   # fake data with a hidden signal, no internet needed
 pytest
+flake8 .
 ```
 
 The tables are printed and saved in `results/` along with two figures.

@@ -4,3 +4,8 @@ __pycache__/
 .pytest_cache/
 *.pkl
 .ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+.coverage
+*Zone.Identifier

@@ -1,0 +1,14 @@
+name: equities-ml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pandas>=2.1
+  - scikit-learn
+  - xgboost
+  - matplotlib
+  - pip:
+    - yfinance>=0.2.40
+    - -e .[dev]
